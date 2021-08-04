@@ -1,8 +1,8 @@
 <?php
 
 $HOST = 'mysql';
-$USER = 'api-admin-dev';
-$PASS = 'password';
+$USER = 'root';
+$PASS = 'root';
 $DB = 'api_dev';
 
 $conn = new mysqli($HOST, $USER, $PASS, $DB);
